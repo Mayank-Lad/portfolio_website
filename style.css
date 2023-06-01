@@ -1,0 +1,141 @@
+body{
+  background: #000;
+  color: white;
+  overflow:hidden;
+  font-size: large;
+}
+.lightmode{
+  background: #fff;
+  color: #000;
+  font-size: large;
+}
+
+.socialmedia{
+  margin-left: 650px;
+  display: inline;
+  word-spacing: 3px;
+  background-origin: padding-box;
+  border: #000;
+  display: inline;
+}
+.icons{
+  margin-left: 800px;
+  word-spacing: 30px;
+  margin-top: -19px;
+}
+.toggle1{
+ border-radius: 100%;
+ height: 40px;
+ width: 40px;
+ display: none;
+ background: #fff;
+}
+.toggle1:hover{
+  padding: 0.05%;
+  border-radius: 5%;
+}
+.toggle2{
+  border-radius: 100%;
+ height: 40px;
+ width: 40px;
+ display:block;
+ background: #fff;
+
+}
+.toggle2:hover{
+ padding: 0.1%;
+  border-radius: 5%;
+}
+.heading{
+  margin-top: -50px;
+}
+.headcontainer{
+  display: inline;
+}
+.container{
+height: 30vh;
+display: inline-flexbox;
+margin-left: 300px;
+width:max-content;
+margin-top: -25px;
+margin-bottom: 20px;
+}
+.card1{
+  margin-right: 500px;
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+  padding: 1.5%; 
+  height: 362px;
+  width: 300px
+}
+.card1:hover{
+  box-shadow: 0 10px 16px 0;
+}
+.card2{
+  margin-right: 500px;
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+  padding: 1.5%; 
+  height: 362px;
+  width: 300px;
+}
+.card2:hover{
+  box-shadow: 0 10px 16px 0;
+}
+.card3{
+  margin-right: 500px;
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+  padding: 1.5%; 
+  height: 362px;
+  width: 300px
+}
+.card3:hover{
+  box-shadow: 0 10px 16px 0;
+}
+.card4{
+  margin-right: 500px;
+  box-shadow: 0 4px 8px 0;
+  transition: 0.3s;
+  padding: 1.5%; 
+  height: 362px;
+  width: 300px
+}
+.card4:hover{
+  box-shadow: 0 10px 16px 0;
+}
+.images{
+  height: 150px;
+  width: 200px;
+  margin-left: 10px;
+  margin-top: -45px;
+ 
+}
+.cardscontainer{
+  margin-top: -100px;
+  margin-left: -100px; 
+}
+.cards{
+  display:inline-flex;
+  animation: animate 19s linear infinite;
+}
+@keyframes animate {
+  0%{
+    margin-left: 200%;
+  }
+  25%{
+    margin-left: 100%;
+  }
+  50%{
+    margin-left: 0%;
+  }
+  75%{
+    margin-left: -100%;
+  }
+  100%{
+    margin-left: -200%;
+  }
+}
+.cards:hover{
+  animation-play-state: paused;
+}
